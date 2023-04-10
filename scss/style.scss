@@ -239,7 +239,7 @@ body {
     .intro {
         background-image: url(../images/bg-intro-desktop.png);
         background-position: center;
-        background-size: 99%;
+        background-size: 98%;
     }
 }
 
@@ -294,7 +294,8 @@ body {
         }
 
         &__agree {
-            margin-top: 1.092em;
+            margin-top: 1em;
+            margin-bottom: .092em;
         }
     }
 }

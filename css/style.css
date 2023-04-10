@@ -196,7 +196,7 @@ body {
   .intro {
     background-image: url(../images/bg-intro-desktop.png);
     background-position: center;
-    background-size: 99%;
+    background-size: 98%;
   }
 }
 @media (min-width: 78.125em) {
@@ -238,6 +238,7 @@ body {
     padding: 1.1875rem 1.9375rem 1.0625rem;
   }
   .intro__agree {
-    margin-top: 1.092em;
+    margin-top: 1em;
+    margin-bottom: 0.092em;
   }
 }/*# sourceMappingURL=style.css.map */
