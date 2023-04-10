@@ -4,8 +4,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-oZWmhCFGAg](https://www.frontendmentor.io/solutions/article-preview-component-oZWmhCFGAg)
-- Live Site URL: [https://zauri-khutsishvili.github.io/article-preview-component/](https://zauri-khutsishvili.github.io/article-preview-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-q6fOmRgtMD](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-q6fOmRgtMD)
+- Live Site URL: [https://zauri-khutsishvili.github.io/intro-component-with-signup-form/](https://zauri-khutsishvili.github.io/intro-component-with-signup-form/)
 
 ## Built with
 

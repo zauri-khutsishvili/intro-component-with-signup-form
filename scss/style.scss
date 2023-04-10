@@ -192,7 +192,7 @@ body {
         box-sizing: inherit;
         background-color: $green;
         width: 100%;
-        padding: rem(17px) rem(25px) rem(13px);
+        padding: rem(16px) rem(25px) rem(14px);
         box-shadow: inset 0 rem(-4px) 0 rgba($black, 0.0908818);
         font-weight: $semibold;
         font-size: rem(15px);
@@ -239,6 +239,7 @@ body {
     .intro {
         background-image: url(../images/bg-intro-desktop.png);
         background-position: center;
+        background-size: 99%;
     }
 }
 
