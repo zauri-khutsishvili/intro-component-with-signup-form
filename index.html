@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <main class="intro">
+    <section class="intro__container">
+
+      <div class="intro__header">
+        <h1 class="intro__heading">Learn to code by watching others</h1>
+        <p class="intro__description">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+
+      <article class="intro__sign-up">
+        <div class="intro__pricing">
+          <p><span class="intro__trial">Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+
+        <form class="intro__sign-up-form" id="sign-up-form" novalidate>
+          <div class="intro__input">
+            <label for="fname" aria-label="First Name"></label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" class="intro__fname intro__input-field">
+            <img src="images/icon-error.svg" alt="" class="intro__error" draggable="false">
+            <small class="intro__error-message"></small>
+          </div>
+          <div class="intro__input">
+            <label for="lname" aria-label="Last Name"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" class="intro__lname intro__input-field">
+            <img src="images/icon-error.svg" alt="" class="intro__error" draggable="false">
+            <small class="intro__error-message"></small>
+          </div>
+          <div class="intro__input">
+            <label for="email" aria-label="Email Address"></label>
+            <input type="email" id="email" name="email" placeholder="Email Address" class="intro__email intro__input-field">
+            <img src="images/icon-error.svg" alt="" class="intro__error" draggable="false">
+            <small class="intro__error-message"></small>
+          </div>
+          <div class="intro__input">
+            <label for="password" aria-label="Password"></label>
+            <input type="password" id="password" name="password" placeholder="Password" class="intro__password intro__input-field">
+            <img src="images/icon-error.svg" alt="" class="intro__error" draggable="false">
+            <small class="intro__error-message"></small>
+          </div>
+          <button type="submit" class="intro__submit">Claim your free trial</button>
+          <p class="intro__agree">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        </form>
+      </article>
+
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+/*Colors*/
+/*Primary*/
+/*Accent*/
+/*Neutral*/
+/*Font Weights*/
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.2857;
+  letter-spacing: -0.01em;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.intro {
+  background: hsl(0, 100%, 74%) url(../images/bg-intro-mobile.png) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.intro__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.875rem;
+  margin: 5.75rem 1.5rem 4.25rem;
+}
+.intro__header {
+  text-align: center;
+}
+.intro__header, .intro__sign-up {
+  max-width: 31.25rem;
+}
+.intro__heading {
+  margin-bottom: 0.8em;
+}
+.intro__description {
+  font-weight: 500;
+  line-height: 1.625em;
+}
+.intro__pricing {
+  background-color: hsl(248, 32%, 49%);
+  padding: 1.3em 4em 1.1em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.7333;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.5rem;
+}
+.intro__pricing, .intro__sign-up-form {
+  border-radius: 0.625rem;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.14688);
+}
+.intro__trial {
+  font-weight: 700;
+}
+.intro__sign-up {
+  width: 100%;
+}
+.intro__sign-up-form {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(249, 10%, 26%);
+  padding: 1.5rem;
+  padding-bottom: 1.4375rem;
+}
+.intro__sign-up-form * {
+  width: 100%;
+}
+.intro__input {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.intro__input-field {
+  display: block;
+  border: 1px solid hsl(0, 0%, 87%);
+  height: 3.5rem;
+  color: hsl(249, 10%, 26%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+  padding: 1.1875rem 1.125rem 1.0625rem;
+}
+.intro__input-field:focus {
+  outline: none;
+  border-color: hsl(248, 32%, 49%);
+}
+.intro__input-field::-moz-placeholder {
+  color: hsl(249, 10%, 26%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.intro__input-field::placeholder {
+  color: hsl(249, 10%, 26%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.intro__input-field:focus::-moz-placeholder {
+  color: transparent;
+}
+.intro__input-field:focus::placeholder {
+  color: transparent;
+}
+.intro__input-field.error {
+  border: 0.125rem solid hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+}
+.intro__error {
+  width: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.6875rem;
+  visibility: hidden;
+}
+.intro__input.error .intro__error {
+  visibility: visible;
+}
+.intro__error-message {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  margin-top: 0.5em;
+}
+.intro__submit {
+  all: unset;
+  box-sizing: inherit;
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  padding: 1.0625rem 1.5625rem 0.8125rem;
+  box-shadow: inset 0 -0.25rem 0 rgba(0, 0, 0, 0.0908818);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.7334;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: background-color 0.12s ease-in-out;
+}
+.intro__submit:hover {
+  background-color: hsl(154, 65%, 68%);
+}
+.intro__input-field, .intro__submit {
+  border-radius: 0.3125rem;
+}
+.intro__agree {
+  width: 90%;
+  font-weight: 500;
+  font-size: 0.6875rem;
+  color: hsl(246, 25%, 77%);
+  line-height: 1.91;
+  text-align: center;
+  margin: 0.8em auto 0;
+}
+.intro__agree a {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(0, 100%, 74%);
+}
+
+@media (min-width: 34.375em) {
+  h1 {
+    font-size: 2.1875rem;
+  }
+  .intro {
+    background-image: url(../images/bg-intro-desktop.png);
+    background-position: center;
+  }
+}
+@media (min-width: 78.125em) {
+  h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+  }
+  .intro__container {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 11.4583333% 0;
+  }
+  .intro__header, .intro__sign-up {
+    max-width: none;
+  }
+  .intro__header {
+    margin-top: 0.4375rem;
+    width: 48.472%;
+    text-align: left;
+  }
+  .intro__heading {
+    margin-bottom: 0.6em;
+  }
+  .intro__sign-up {
+    width: 51.528%;
+    max-width: 33.75rem;
+  }
+  .intro__pricing {
+    padding: 1.21em 4em 1.059em;
+  }
+  .intro__sign-up-form {
+    padding: 2.5rem;
+    padding-bottom: 2.5625rem;
+  }
+  .intro__input {
+    margin-bottom: 1.25rem;
+  }
+  .intro__input-field {
+    padding: 1.1875rem 1.9375rem 1.0625rem;
+  }
+  .intro__agree {
+    margin-top: 1.092em;
+  }
+}/*# sourceMappingURL=style.css.map */
