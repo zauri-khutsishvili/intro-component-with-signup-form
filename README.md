@@ -18,3 +18,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ## Author
 
 - Frontend Mentor - [@zauri-khutsishvili](https://www.frontendmentor.io/profile/zauri-khutsishvili)
+
+## Acknowledgments
+
+- [Florin Pop](https://www.youtube.com/watch?v=rsd4FNGTRBw)
